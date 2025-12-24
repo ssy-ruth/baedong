@@ -1,0 +1,46 @@
+{
+  "statusCode": 201,
+  "code": "EMPLOYEES_SUCCESS",
+  "data": {
+    "items": [
+      {
+        "userId": 1,
+        "name": "김철수",
+        "deptName": "Platform 1",
+        "position": "마스터",
+        "isBookMark": true
+      },
+      {
+        "userId": 2,
+        "name": "홍길동",
+        "deptName": "전략기획팀",
+        "position": "매니저",
+        "isBookMark": true
+      },
+      {
+        "userId": 3,
+        "name": "이영희",
+        "deptName": "Platform 2",
+        "position": "마스터",
+        "isBookMark": false
+      },
+      {
+        "userId": 4,
+        "name": "김나무",
+        "deptName": "기술연구소",
+        "isBookMark": false
+      },
+      {
+        "userId": 5,
+        "name": "이영희",
+        "deptName": "Platform 2",
+        "position": "마스터",
+        "isBookMark": false
+      }
+    ],
+    "nextCursor": "5",
+    "hasNext": true,
+    "size": 5,
+    "keyword": ""
+  }
+}

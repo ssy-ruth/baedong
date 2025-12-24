@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import RootRoute from "@/routes/RootRoute";
+import "@/assets/style/samples/Sample.css";
+import { useEffect } from "react";
+import useHistoryStore from "@/stores/useHistoryStore";
+import DialogComponent from "@/components/common/dialog/DialogComponent";
+import useCoreStore from "@/stores/useCoreStore";
+import SampleLoading from "@/components/common/sample/SampleLoading";
 
 function App() {
+  const { historyList } = useHistoryStore();
+  const { loading } = useCoreStore();
+
+  useEffect(() => {
+    console.log("히스토리 변화 감지", historyList);
+    console.log("로딩 변화 감지", loading);
+  }, [historyList, loading]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <RootRoute />
+      <DialogComponent />
+      {loading > 0 && <SampleLoading />}
+    </>
   );
 }
 

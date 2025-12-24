@@ -1,0 +1,28 @@
+{
+  "statusCode": 201,
+  "code": "EMPLOYEES_NAME_SEARCH_SUCCESS",
+  "data": {
+    "items": [
+      {
+        "userId": 21,
+        "name": "고예진",
+        "position": "프로",
+        "deptId": 210,
+        "deptName": "Platform 1",
+        "isBookMark": true
+      },
+      {
+        "userId": 22,
+        "name": "고예진아",
+        "position": "매니저",
+        "deptId": 777,
+        "deptName": "AI Lab",
+        "isBookMark": true
+      }
+    ],
+    "nextCursor": "22",
+    "hasNext": true,
+    "size": 10,
+    "keyword": "예진"
+  }
+}

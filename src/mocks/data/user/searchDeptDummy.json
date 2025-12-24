@@ -1,0 +1,29 @@
+{
+  "statusCode": 201,
+  "code": "EMPLOYEES_ORG_SEARCH_SUCCESS",
+  "data": {
+    "items": [
+      {
+        "userId": 11,
+        "name": "김가람",
+        "position": "프로",
+        "deptId": 210,
+        "deptName": "Platform 1",
+        "isBookMark": true
+      },
+      {
+        "userId": 12,
+        "name": "박다온",
+        "position": "매니저",
+        "deptId": 211,
+        "deptName": "Platform 1",
+        "isBookMark": false
+      }
+    ],
+    "nextCursor": "12",
+    "hasNext": false,
+    "size": 10,
+    "deptId": 1,
+    "deptName": "Platform 1"
+  }
+}

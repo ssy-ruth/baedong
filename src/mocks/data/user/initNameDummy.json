@@ -1,0 +1,42 @@
+{
+  "statusCode": 201,
+  "code": "EMPLOYEES_SEARCH_SUCCESS",
+  "data": {
+    "items": [
+      {
+        "id": 1,
+        "name": "김철수",
+        "deptName": "Platform 1",
+        "position": "마스터",
+        "isBookMark": true
+      },
+      {
+        "id": 2,
+        "name": "홍길동",
+        "deptName": "전략기획팀",
+        "position": "매니저",
+        "phone": "010-1234-5678",
+        "email": "example@finger.co.kr",
+        "isBookMark": false
+      },
+      {
+        "id": 3,
+        "name": "이영희",
+        "deptName": "Platform 2",
+        "position": "마스터",
+        "isBookMark": false
+      },
+      {
+        "id": 4,
+        "name": "김나무",
+        "deptName": "기술연구소",
+        "position": "매니저",
+        "isBookMark": false
+      }
+    ],
+    "nextCursor": "4",
+    "hasNext": true,
+    "size": 4,
+    "keyword": ""
+  }
+}

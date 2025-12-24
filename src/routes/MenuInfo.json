@@ -1,0 +1,24 @@
+{
+  "container": [
+    {
+      "name": "Login",
+      "urlList": [
+        {
+          "url": "/LGN/LGN_001_P01",
+          "filePath": "LGN/LGN_001_P01",
+          "menuId": "LGN_001_P01"
+        }
+      ]
+    },
+    {
+      "name": "Home",
+      "urlList": [
+        {
+          "url": "/",
+          "filePath": "HOM/HOM_001_P01",
+          "menuId": "HOM_001_P01"
+        }
+      ]
+    }
+  ]
+}

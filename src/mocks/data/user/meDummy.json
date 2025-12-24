@@ -1,0 +1,15 @@
+{
+  "meInfo": {
+    "userId": 1,
+    "birth": "20020123",
+    "deptName": "Platform 1 본부",
+    "position": "인턴",
+    "email": "0000@finger.co.kr",
+    "empNumber": 12345678,
+    "name": "김핑거",
+    "password": "poi098)(*",
+    "phoneNumber": "01012369854",
+    "seedCount": 55,
+    "yearFruit": 96
+  }
+}

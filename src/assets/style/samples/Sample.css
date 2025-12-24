@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.menu-list-container {
+  width: 100%;
+  border-bottom: 1px solid lightslategray;
+}
+
+.menu-list-container > .menu-title {
+  padding: 1rem;
+  background-color: #215ba0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.menu-list-container:last-child {
+  border-bottom: none;
+}

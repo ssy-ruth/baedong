@@ -1,0 +1,28 @@
+{
+  "statusCode": 201,
+  "code": "EMPLOYEES_NAME_SEARCH_SUCCESS",
+  "data": {
+    "items": [
+      {
+        "userId": 11,
+        "name": "홍길동",
+        "position": "프로",
+        "deptId": 100,
+        "deptName": "Platform 1",
+        "isBookMark": true
+      },
+      {
+        "userId": 12,
+        "name": "홍대감",
+        "position": "매니저",
+        "deptId": 101,
+        "deptName": "AI Lab",
+        "isBookMark": false
+      }
+    ],
+    "nextCursor": null,
+    "hasNext": false,
+    "size": 10,
+    "keyword": "홍"
+  }
+}
