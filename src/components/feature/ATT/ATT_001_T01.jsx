@@ -110,7 +110,7 @@ const ATT001T01 = () => {
       {/* 📅 일별 출석 */}
       {selectedDate && (
         <>
-          <AttendanceSummary summary={dailySummaryMock} />
+          <AttendanceSummary summary={dailySummaryMock} date={selectedDate} />
           <ClassAttendanceList
             classList={dailyClassAttendanceMock}
             activeClassId={activeClassId}
