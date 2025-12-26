@@ -19,27 +19,13 @@ import BaseIconBtn from "@/components/common/base/button/BaseIconBtn";
  *  - close : ✕ + 타이틀 (모달/풀팝업 등)
  */
 
-const Header = ({
-  variant = "full",
-  title,
-  onClose,
-  onClickSeed,
-  onClickFruit,
-}) => {
-  const seed = useHeaderStore((state) => state.seed);
-  const fruit = useHeaderStore((state) => state.fruit);
-  const fetchUserSummary = useHeaderStore((state) => state.fetchUserSummary);
-
-  useEffect(() => {
-    if (variant === "full") fetchUserSummary();
-  }, [fetchUserSummary, variant]);
-
+const Header = ({ variant = "full", title, onClose }) => {
   return (
     <header
       className="flex items-center w-full h-14 bg-main text-white sticky top-0 z-50"
       role="banner"
     >
-      <div className="w-24 flex justify-start px-3">
+      {/* <div className="w-24 flex justify-start px-3">
         {variant === "close" ? (
           <BaseIconBtn
             type="button"
@@ -55,7 +41,7 @@ const Header = ({
             hasBorder={false}
           />
         )}
-      </div>
+      </div> */}
 
       <h1 className="flex-1 text-center text-[17px] font-extrabold tracking-tight">
         {title}
